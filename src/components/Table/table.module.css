@@ -1,0 +1,78 @@
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr th {
+  font-size: 18px;
+  padding: 12px;
+  border: 1px solid #c0c0c0;
+  text-align: center;
+  background-color: rgba(217, 221, 146, 0.2);
+}
+
+tr th input,
+tr th select {
+  background-color: #e9e4de;
+}
+
+tr th input :hover,
+tr th select :hover {
+  background-color: #b9b5b0 !important;
+}
+
+tr td {
+  border: 1px solid #c0c0c0;
+  text-align: left;
+}
+
+.tableId {
+  text-align: center;
+}
+
+input {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  width: 89%;
+  padding: 13px 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type='date'] {
+  padding: 13px 10px;
+}
+
+input:hover {
+  background-color: #fffaf3;
+}
+
+input:focus {
+  outline: none;
+  background-color: #fffaf3;
+}
+
+select {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 13px 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+select:hover {
+  background-color: #fffaf3;
+}
+
+select:focus {
+  outline: none;
+}
